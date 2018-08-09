@@ -244,7 +244,7 @@ def crack(d):
 		else:
 			return menu()
 	else:
-		return crack0(d,inputD(' ˜Sandi Korban'),1)
+		return crack0(d,inputD(' =>Sandi Korban'),1)
 def crack0(data,sandi,p):
 	tampil('\rh %MengCrack \rk%d Akun \rhdengan sandi \rm[\rk%s\rm]'%(len(data),sandi))
 	print('\033[32;1m %Cracking \033[31;1m[\033[36;1m0%\033[31;1m]\033[0m',end='')
